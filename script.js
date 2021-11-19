@@ -14,8 +14,5 @@ function calcular(){
     var p = ((1+juros)**meses-1)/juros // vf = valor poupado no futuro
     var vf = mensal*p.toFixed(2)
   
-        res.innerHTML = `${nome}, se você aplicar R $${mensal}, à taxa de juros de ${tjuros}% ao mês, durante ${meses} meses,
+        res.innerHTML = `${nome}, aplicando R $${mensal}, à taxa de juros de ${tjuros}% ao mês, durante ${meses} meses,
         acumulará uma poupança de R $${vf}`
-    
-    
-}
